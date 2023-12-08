@@ -1,6 +1,6 @@
 [
     { "name": "home", "link": "/", "text": "Accueil", "onHeader": false },
-    { "name": "alarm", "link": "/installation-alarme-orleans/", "text": "Alarme", "onHeader": true },
+    { "name": "alarm", "link": "/installation-alarme/", "text": "Alarme", "onHeader": true },
     { "name": "video", "link": "/installation-video-surveillance-orleans/", "text": "Vidéo surveillance", "onHeader": true },
     { "name": "access-control", "link": "/controle-acces-orleans/", "text": "Contrôle d'accès", "onHeader": true },
     { "name": "contact", "link": "/contact/", "text": "Contact", "onHeader": false },
