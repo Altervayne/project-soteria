@@ -26,7 +26,7 @@ const useStyles = makeStyles()((theme) => {
         imageRoot: {
             position: "absolute",
 
-            height: "85vh",
+            height: "90vh",
             maxHeight: "100%",
             width: "100%",
 

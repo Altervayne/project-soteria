@@ -19,12 +19,12 @@ const useStyles = makeStyles()((theme) => {
             justifyContent: "center",
 
             width: "100%",
-            height: "85vh",
+            height: "90vh",
 
             background: "linear-gradient(150deg, rgba(3,0,0,1) 0%, rgba(69,16,16,1) 37%, rgba(126,85,85,1) 75%, rgba(154,143,143,1) 100%)",
 
             [theme.breakpoints.down('sm')]: {
-                marginTop: theme.spacing(12),
+                marginTop: theme.spacing(4),
             },
             [theme.breakpoints.up('sm')]: {
                 marginTop: "0",
@@ -32,40 +32,49 @@ const useStyles = makeStyles()((theme) => {
         },
         banner: {
             display: "flex",
-            flexDirection: "column",
             alignItems: "center",
 
 			boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.37)",
-            background: "linear-gradient(350deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.6) 100%)",
-            backdropFilter: "blur(4px)",
+            background: "linear-gradient(350deg, rgba(2,2,2,0.4) 0%, rgba(5,5,5,0.75) 100%)",
+            backdropFilter: "blur(12px)",
 
             padding: theme.spacing(4),
 
             [theme.breakpoints.down('sm')]: {
+                flexDirection: "column",
                 borderRadius: "0",
             },
             [theme.breakpoints.up('sm')]: {
+                flexDirection: "row",
                 borderRadius: theme.spacing(0.75),  
+            },
+        },
+        bannerTitleRoot: {
+            [theme.breakpoints.up('sm')]: {
+                maxWidth: "none",
+            },
+            [theme.breakpoints.up('sm')]: {
+                maxWidth: "50vw",
+            },
+            [theme.breakpoints.up('md')]: {
+                maxWidth: "550px",
             },
         },
         bannerTitle: {
             margin: "0",
 
-            color: "#C80404",
+            color: "#F5F5F5",
             
 
             [theme.breakpoints.down('sm')]: {
                 fontSize: theme.typography.pxToRem(26),
             },
             [theme.breakpoints.up('sm')]: {
-                fontSize: theme.typography.pxToRem(28), 
-            },
-            [theme.breakpoints.up('lg')]: {
-                fontSize: theme.typography.pxToRem(40), 
+                fontSize: theme.typography.pxToRem(40),  
             },
         },
         bannerSubTitle: {
-            color: "rgba(18, 18, 18, 1)",
+            color: "#F5F5F5",
 
             fontWeight: 500,
             
@@ -74,10 +83,7 @@ const useStyles = makeStyles()((theme) => {
                 fontSize: theme.typography.pxToRem(18),
             },
             [theme.breakpoints.up('sm')]: {
-                fontSize: theme.typography.pxToRem(18), 
-            },
-            [theme.breakpoints.up('lg')]: {
-                fontSize: theme.typography.pxToRem(22), 
+                fontSize: theme.typography.pxToRem(22),
             },
         },
         bannerSubText: {
@@ -87,26 +93,44 @@ const useStyles = makeStyles()((theme) => {
         },
         buttonsContainer: {
             display: "flex",
-            alignItems: "center",
+            alignItems: "flex-start",
+            justifyContent: "flex-start",
         
             minWidth: "200px",
             
             [theme.breakpoints.down('sm')]: {
-                justifyContent: "space-between",
+                flexDirection: "row",
+                flexWrap: "wrap",
+                justifyContent: "center",
+                alignItems: "center",
+                
+                
 
                 width: "100%",
             },
             [theme.breakpoints.up('sm')]: {
+                flexDirection: "column",
                 justifyContent: "space-evenly",
 
                 width: "65%",
+                maxWidth: "80px",
             },
             [theme.breakpoints.up('lg')]: {
                 justifyContent: "space-evenly",
 
                 width: "40%",
+                maxWidth: "80px",
+
+                marginLeft: theme.spacing(6),
             },
-        }
+        },
+        buttonsSubContainer: {
+            display: "flex",
+            alignItems: "flex-start",
+            justifyContent: "flex-start",
+
+            margin: theme.spacing(1),
+        },
     }
 })
 
@@ -139,17 +163,29 @@ export default function HomeBanner() {
             
             <motion.div className={ classes.banner } variants={ bannerVariants } initial="rest" animate="loaded">
 
-                <h1 className={ classes.bannerTitle }>
-                    <Link href="/installation-video-surveillance-orleans">
-                        { `Installateur d'alarme et vidéo surveillance à Orléans` }
-                    </Link>
-                </h1>
-
-                <h2 className={ classes.bannerSubTitle }>{ `Pour avoir un oeil partout, tout le temps !` }</h2>
+                <div className={ classes.bannerTitleRoot }>
+                    <h1 className={ classes.bannerTitle }>
+                        { `Icon International Security` }
+                    </h1>
+                    <h2 className={ classes.bannerSubTitle }>
+                        { `Agence d'installation de systèmes de sécurité et de télésurveillance` }
+                    </h2>
+                </div>
 
                 <div className={ classes.buttonsContainer }>
-                    <GoToButton text={"Alarme"} link={"/installation-alarme-orleans"} description={"Renseignez-vous sur les installations d'alarme par AD CAM"} isOutside={ false }/>
-                    <GoToButton text={"Vidéo surveillance"} link={"/installation-video-surveillance-orleans"} description={"Renseignez-vous sur les installations de vidéo surveillance par AD CAM"} isOutside={ false }/>
+                    <div className={ classes.buttonsSubContainer }>
+                        <GoToButton text={"Alarmes"} link={"/installation-alarme"} description={"Renseignez-vous sur les installations d'alarme par Icon International"} isOutside={ false }/>
+                    </div>
+                    <div className={ classes.buttonsSubContainer }>
+                        <GoToButton text={"Caméras"} link={"/installation-camera"} description={"Renseignez-vous sur les installations de caméras par Icon International"} isOutside={ false }/>
+                    </div>
+                    <div className={ classes.buttonsSubContainer }>
+                        <GoToButton text={"Contrôle d'Accès"} link={"/controle-acces"} description={"Renseignez-vous sur les installations de systèmes de contrôle d'accès par Icon International"} isOutside={ false }/>
+                    </div>
+                    <div className={ classes.buttonsSubContainer }>
+                        <GoToButton text={"Télésurveillance"} link={"/telesurveillance"} description={"Renseignez-vous sur les services de télésurveillance par Icon International"} isOutside={ false }/>
+                    </div>
+
                 </div>
 
             </motion.div>
