@@ -23,7 +23,19 @@ function getTextVariants(location: string) {
                     transition: { duration: 0.1 }
                 }
             }
-        
+
+        case "headerHamb":
+            return {
+                rest: {
+                    color: "rgba(41, 41, 41, 1)",
+                    transition: { duration: 0.1 }
+                },
+                hover: {
+                    color: "rgba(200, 4, 4, 1)",
+                    transition: { duration: 0.1 }
+                }
+            }
+
         case "footer":
             return {
                 rest: {
@@ -204,7 +216,7 @@ function NavLinkHambMenu({ isActive, link, linkText }: HeaderProps) {
             { !isActive  ?
                 <Link href={ link } className={ classes.root }>
                     <motion.span initial="rest" animate="rest" whileHover="hover">
-                        <motion.span className={ classes.text } variants={ getTextVariants("header") }>{ linkText }</motion.span>
+                        <motion.span className={ classes.text } variants={ getTextVariants("headerHamb") }>{ linkText }</motion.span>
                         <motion.span className={ classes.underlineHamburger } variants={ underlineVariants }></motion.span>
                     </motion.span>   
                 </Link>
