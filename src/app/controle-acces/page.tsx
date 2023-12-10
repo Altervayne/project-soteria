@@ -15,7 +15,6 @@ export default function AlarmPage() {
     return (
         <>
             <Header activePage={ "access-control" } />
-            <CallUs />
             <main>
                 <Banner image={ accessBannerPhoto } isSmall={ false } position='right' />
                 <FirstSection />

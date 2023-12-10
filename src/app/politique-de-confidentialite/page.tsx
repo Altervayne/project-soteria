@@ -13,7 +13,6 @@ export default function PrivacyPolicyPage() {
     return (
         <>
             <Header activePage={ "home" } />
-            <CallUs />
             <main>
                 <PrivacyPolicy />
             </main>

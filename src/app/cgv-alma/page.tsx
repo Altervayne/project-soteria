@@ -13,7 +13,6 @@ export default function AlmaTermsPage() {
     return (
         <>
             <Header activePage={ "alma-terms" } />
-            <CallUs />
             <main>
                 <AlmaConditions />
             </main>

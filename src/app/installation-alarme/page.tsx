@@ -24,7 +24,6 @@ export default function AlarmPage() {
     return (
         <>
             <Header activePage={ "alarm" } />
-            <CallUs />
             <main>
                 <FirstSection />
                 <HubSection />

@@ -39,11 +39,11 @@ const useStyles = makeStyles()((theme) => {
                 left: "0",
                 zIndex: 9999,
 
-                marginTop: theme.spacing(8),
+                /* marginTop: theme.spacing(8), */
             },
             [theme.breakpoints.up('sm')]: {
                 position: "relative",
-                marginTop: theme.spacing(5),
+                /* marginTop: theme.spacing(5), */
 
                 zIndex: 4,
             },

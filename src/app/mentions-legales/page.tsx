@@ -13,7 +13,6 @@ export default function LegalNoticesPage() {
     return (
         <>
             <Header activePage={ "home" } />
-            <CallUs />
             <main>
                 <LegalNotices />
             </main>

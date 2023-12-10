@@ -17,7 +17,6 @@ export default function Home() {
     return (
         <>
             <Header activePage={ "home" } />
-            <CallUs />
             <main>
                 <HomeBanner />
                 <AboutSection />

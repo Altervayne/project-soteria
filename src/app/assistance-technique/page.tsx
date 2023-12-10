@@ -15,7 +15,6 @@ export default function ContactPage() {
     return (
         <>
             <Header activePage={ "support" } />
-            <CallUs />
             <main>
                 <Banner image={ techSupportBannerPhoto } isSmall={ false } position='center' />
                 <TechSupportSection />

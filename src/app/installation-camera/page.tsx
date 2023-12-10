@@ -16,7 +16,6 @@ export default function AlarmPage() {
     return (
         <>
             <Header activePage={ "video" } />
-            <CallUs />
             <main>
                 <FirstSection />
                 <SecondSection />

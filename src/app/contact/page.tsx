@@ -16,7 +16,6 @@ export default function ContactPage() {
     return (
         <>
             <Header activePage={ "contact" } />
-            <CallUs />
             <main>
                 <Banner image={ contactBannerPhoto } isSmall={ false } position='center' />
                 <FormSection />
