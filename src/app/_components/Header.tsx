@@ -3,7 +3,7 @@
 import { PageInfo } from "../_types/dataFiles"
 const pageList: PageInfo[] = require("../_data/pageList.json")
 /* Assets Imports */
-import adCamHeaderLogo from "/public/logos/logo-full_black.png"
+import iconIntLogo from "/public/logos/logo-notext.png"
 /* Library Imports */
 import { makeStyles } from 'tss-react/mui'
 import { useTheme, useMediaQuery } from "@mui/material"
@@ -30,7 +30,7 @@ const useStyles = makeStyles()((theme) => {
             height: theme.spacing(12),
 
 			boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.37)",
-            backgroundColor: "#FFF",
+            backgroundColor: "#1a1a1a",
             backdropFilter: "blur(2px)",
 
             [theme.breakpoints.down('sm')]: {
@@ -67,10 +67,12 @@ const useStyles = makeStyles()((theme) => {
             },
         },
         logoRoot: {
+            display: "flex",
+            alignItems: "center",
             height: "75%",
         },
         logoImage: {
-            height: "100%",
+            height: "80%",
             width: "auto",
         },
         servicesLinksRoot: {
@@ -109,7 +111,7 @@ export default function Header({ activePage }: HeaderProps) {
             <div className={ classes.headerContent }>
                 <Link className={ classes.logoRoot } href="/">
                     <Image  className={ classes.logoImage }
-                            src={ adCamHeaderLogo }
+                            src={ iconIntLogo }
                             alt="AD CAM, installateurs de systèmes de télésurveillance à Orléans"
                     />
                 </Link>

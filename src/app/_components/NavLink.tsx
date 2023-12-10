@@ -15,11 +15,11 @@ function getTextVariants(location: string) {
         case "header":
             return {
                 rest: {
-                    color: "rgba(41, 41, 41, 1)",
+                    color: "rgba(245, 245, 245, 1)",
                     transition: { duration: 0.1 }
                 },
                 hover: {
-                    color: "rgba(200, 4, 4, 1)",
+                    color: "rgba(252, 105, 105, 1)",
                     transition: { duration: 0.1 }
                 }
             }
@@ -178,7 +178,7 @@ const useStyles = makeStyles()((theme) => {
 
 			height: "2px",
 			width: "100%",
-			backgroundColor: "#C80404",
+			backgroundColor: "rgba(252, 105, 105, 1)",
 		},
     }
 })

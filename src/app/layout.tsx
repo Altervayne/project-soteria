@@ -13,13 +13,13 @@ const quicksand = Quicksand({ subsets: ['latin'] })
 
 
 export const metadata = {
-    title: `AD CAM | Installateur d'alarme et vidéo surveillance à Orléans`,
-    description: `Installateur d'alarme et vidéo surveillance à Orléans (45) | 100% autonome | Sans abonnement | Installation de qualité | AD CAM | 06 95 86 91 76`,
+    title: `Icon International Security | Agence de télésurveillance`,
+    description: `Installateur d'alarmes, de caméras, et agence de télésurveillance | Installation de qualité | Icon Int | +32 (0)2 703 02 03`,
     openGraph: {
-        url: `https://www.ad-cam.fr`,
-        siteName: `AD CAM`,
-        title: `AD CAM, Installateur de systèmes de télésurveillance à Orléans`,
-        description: `AD CAM est un installateur d'alarmes et de systèmes de télésurveillance aux alentours d'Orléans, proposant un service sans aucun abonnement et 100% autonome.`
+        url: `https://www.iconeint.com`,
+        siteName: `Icon International Security`,
+        title: `Icon International Security, Agence de télésurveillance`,
+        description: `Icon International est un installateur d'alarmes, de caméras et de systèmes de sécurité proposant des services de télésurveillance de haute qualité.`
     }    
 }
 
