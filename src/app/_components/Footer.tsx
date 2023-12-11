@@ -105,8 +105,8 @@ const useStyles = makeStyles()((theme) => {
             alignSelf: "center",
 
             [theme.breakpoints.down('sm')]: {
-                width: "75%",
-                height: "auto",
+                height: "80px",
+                width: "auto",
 
                 marginRight: "0",
                 marginBottom: theme.spacing(2),
@@ -183,6 +183,9 @@ const useStyles = makeStyles()((theme) => {
             width: "100%",
 
             color: "#FFF",
+        },
+        partnersLink: {
+            cursor: "pointer",
         },
         footerNavContainer: {
             display: "flex",
@@ -349,7 +352,9 @@ export default function Footer() {
                     <h3 className={ classes.partnersInfoTitle }>
                         { `Nos partenaires` }
                     </h3>
-                    <Image src={ adCamLogo } alt="Logo de AD CAM" height={ 100 } width={ 115 } style={{ margin: "10px" }} />
+                    <a className={ classes.partnersLink } href="https://www.ad-cam.fr/" target="_blank">
+                        <Image src={ adCamLogo } alt="Logo de AD CAM" height={ 100 } width={ 115 } style={{ margin: "10px" }} />
+                    </a>
                 </div>
             </div>
 
