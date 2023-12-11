@@ -59,10 +59,10 @@ const useStyles = makeStyles()((theme) => {
             justifyContent: "space-evenly",
         },
         clientsImage: {
-            margin: theme.spacing(1),
+            margin: theme.spacing(3),
             
-            height: "90px",
-            maxWidth: "90%"
+            maxHeight: "80px",
+            maxWidth: "170px"
         }
     }
 })

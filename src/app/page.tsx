@@ -21,9 +21,9 @@ export default function Home() {
                 <HomeBanner />
                 <AboutSection />
                 <WhatWeOffer sectionType={ "ourPledges"} />
-                <ReviewCarousel />
-                <WhatWeOffer sectionType={ "ourServices"} />
+                {/* <ReviewCarousel /> */}
                 <OurClients />
+                <WhatWeOffer sectionType={ "ourServices"} />
             </main>
             <Footer />
         </>

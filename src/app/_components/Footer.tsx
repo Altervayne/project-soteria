@@ -112,7 +112,7 @@ const useStyles = makeStyles()((theme) => {
                 marginBottom: theme.spacing(2),
             },
             [theme.breakpoints.up('sm')]: {
-                height: "140px",
+                height: "80px",
                 width: "auto",
                 
                 marginRight: theme.spacing(4),
@@ -148,6 +148,7 @@ const useStyles = makeStyles()((theme) => {
         partnersContainer: {
             display: "flex",
             flexWrap: "wrap",
+            flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
 
@@ -329,18 +330,18 @@ export default function Footer() {
                 <div className={ classes.logoSubRoot }>
                     <Image  className={ classes.logoImage }
                         src={ iconIntLogo }
-                        alt="Logo de AD CAM, installateurs de systèmes de surveillance près d'Orléans"
+                        alt="Logo de Icon International Security, installateurs de systèmes de sécurité et agence de télésurveillance"
                     />
                     <div className={ classes.logoInfoContainer }>
                         <h3 className={ classes.logoInfoTitle }>
-                            <span>{ `Installateur d’alarme et vidéo` }</span>
-                            <span>{ `surveillance à Orléans (45)` }</span>
+                            <span>{ `Installateur de systèmes de` }</span>
+                            <span>{ `sécurité et télésurveillance` }</span>
                         </h3>
                         <div className={ classes.logoInfoButtons }>
                             <IconButton icon={ 'phone' } text={ '06 95 86 91 76' } link={ 'tel:+33695869176' } description={ 'Appelez nous au 06 95 86 91 76' } isOutside={ false }/>
                             <SocialButton icon={ 'facebook' } link={ 'https://www.facebook.com/AD-CAM-103597488861540' } description={ 'Suivez nous sur Facebook.' }/>
                         </div>
-                        <IconButton icon={ 'certificate' } text={ 'Certifié AJAX Fibra' } link={ 'https://ajax.systems/fr/where-to-buy/' } description={ `Nous sommes certifiés pour l'installation d'équipements AJAX Fibra.` } isOutside={ true }/>
+                        {/* <IconButton icon={ 'certificate' } text={ 'Certifié AJAX Fibra' } link={ 'https://ajax.systems/fr/where-to-buy/' } description={ `Nous sommes certifiés pour l'installation d'équipements AJAX Fibra.` } isOutside={ true }/> */}
                     </div>
                 </div>
 
@@ -348,7 +349,7 @@ export default function Footer() {
                     <h3 className={ classes.partnersInfoTitle }>
                         { `Nos partenaires` }
                     </h3>
-                    <Image src={ adCamLogo } alt="Logo de AD CAM" height={ 75 } width={ 115 } style={{ margin: "10px" }} />
+                    <Image src={ adCamLogo } alt="Logo de AD CAM" height={ 100 } width={ 115 } style={{ margin: "10px" }} />
                 </div>
             </div>
 

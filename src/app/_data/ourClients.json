@@ -1,6 +1,74 @@
 [
     {
-        "src": "",
-        "alt": ""
+        "src": "accor_hotels.png",
+        "alt": "Logo de Accord Hotels"
+    },
+    {
+        "src": "audi.png",
+        "alt": "Logo de Audi"
+    },
+    {
+        "src": "canal-plus.png",
+        "alt": "Logo de Canal Plus"
+    },
+    {
+        "src": "bmw.png",
+        "alt": "Logo de BMW"
+    },
+    {
+        "src": "loreal.png",
+        "alt": "Logo de L'Oréal"
+    },
+    {
+        "src": "iveco.png",
+        "alt": "Logo de Iveco"
+    },
+    {
+        "src": "total.png",
+        "alt": "Logo de Total"
+    },
+    {
+        "src": "carrefour.png",
+        "alt": "Logo de Carrefour"
+    },
+    {
+        "src": "croix_rouge.png",
+        "alt": "Logo de la Croix Rouge de Belgique"
+    },
+    {
+        "src": "nbms-holding.png",
+        "alt": "Logo de B Holding"
+    },
+    {
+        "src": "police_montgomery.png",
+        "alt": "Logo de la Police de Montgomery"
+    },
+    {
+        "src": "q8.png",
+        "alt": "Logo de Q8"
+    },
+    {
+        "src": "quick.png",
+        "alt": "Logo de Quick"
+    },
+    {
+        "src": "rexel.png",
+        "alt": "Logo de Rexel"
+    },
+    {
+        "src": "royal_standard.png",
+        "alt": "Logo de Royal Standard"
+    },
+    {
+        "src": "sfr.png",
+        "alt": "Logo de SFR"
+    },
+    {
+        "src": "shell.png",
+        "alt": "Logo de Shell"
+    },
+    {
+        "src": "aston_martin.png",
+        "alt": "Logo de Aston Martin"
     }
 ]
