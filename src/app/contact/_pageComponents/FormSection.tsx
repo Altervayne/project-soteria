@@ -22,6 +22,7 @@ const useStyles = makeStyles()((theme) => {
             width: "100%",
 
             paddingTop: theme.spacing(10),
+            paddingBottom: theme.spacing(10),
 
             boxShadow: "0px -50px 25px -50px rgba(0, 0, 0, 0.3)",
         },

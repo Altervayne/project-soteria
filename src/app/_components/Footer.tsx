@@ -338,8 +338,8 @@ export default function Footer() {
                             <span>{ `sécurité et télésurveillance` }</span>
                         </h3>
                         <div className={ classes.logoInfoButtons }>
-                            <IconButton icon={ 'phone' } text={ '06 95 86 91 76' } link={ 'tel:+33695869176' } description={ 'Appelez nous au 06 95 86 91 76' } isOutside={ false }/>
-                            <SocialButton icon={ 'facebook' } link={ 'https://www.facebook.com/AD-CAM-103597488861540' } description={ 'Suivez nous sur Facebook.' }/>
+                            <IconButton icon={ 'phone' } text={ '+32 (0)2 703 02 03' } link={ 'tel:+3227030203' } description={ 'Appelez nous au +32 (0)2 703 02 03' } isOutside={ false }/>
+                            {/* <SocialButton icon={ 'facebook' } link={ '' } description={ 'Suivez nous sur Facebook.' }/> */}
                         </div>
                         {/* <IconButton icon={ 'certificate' } text={ 'Certifié AJAX Fibra' } link={ 'https://ajax.systems/fr/where-to-buy/' } description={ `Nous sommes certifiés pour l'installation d'équipements AJAX Fibra.` } isOutside={ true }/> */}
                     </div>
@@ -364,7 +364,7 @@ export default function Footer() {
 
 
             <p className={ classes.copyright }>
-                AD CAM © { new Date().getFullYear() } - Tous droits réservés
+                ICON SECURITY INTERNATIONAL © { new Date().getFullYear() } - Tous droits réservés
             </p>
         </footer>
     )

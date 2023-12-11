@@ -4,6 +4,5 @@
     { "name": "video", "link": "/installation-camera/", "text": "Caméras", "onHeader": true },
     { "name": "access-control", "link": "/controle-acces/", "text": "Contrôle d'accès", "onHeader": true },
     { "name": "telesurveillance", "link": "/telesurveillance/", "text": "Télésurveillance", "onHeader": true },
-    { "name": "contact", "link": "/contact/", "text": "Contact", "onHeader": false },
-    { "name": "support", "link": "/assistance-technique/", "text": "Assistance technique", "onHeader": false }
+    { "name": "contact", "link": "/contact/", "text": "Contact", "onHeader": false }
 ]

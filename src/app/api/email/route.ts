@@ -30,7 +30,7 @@ export async function POST(req: any) {
 
     const msg = {
         to: destination,
-        from: "contact@ad-cam.fr",
+        from: "",
         subject: data.subject,
         text: data.text
     }

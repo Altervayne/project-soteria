@@ -1,6 +1,5 @@
 'use client'
 /* Assets Imports */
-import adCamFullLogo from "public/logos/logo-full_black.png"
 import accessControlOne from "public/access_control/access-control-one.jpg"
 import accessControlTwo from "public/access_control/access-control-two.jpg"
 import accessControlThree from "public/access_control/access-control-three.webp"
@@ -147,8 +146,8 @@ export default function FirstSection() {
                     <SectionTitle text={ "Contrôle d'accès" } />
                 </div>
                 <div className={ classes.articleContainer }>
-                    <ImagedArticle image={ accessControlOne } alt={ `Système de contrôle d'accès par digicode` } isLeft={ false } title={ `Faites appel à AD CAM pour vous garantir un accès sécurisé à votre bâtiment` }>
-                        <p>{ `Que vous ayez un ou plusieurs bâtiments à sécuriser et quel que soit le nombre d'utilisateurs, ` }<strong>{ `AD CAM` }</strong>{ ` propose des solutions de contrôle d'accès souples et modulaires, adaptées aux besoins de chaque client : ` }<strong>{ `multi-sites, multi-bâtiments, multi-postes...` }</strong></p>
+                    <ImagedArticle image={ accessControlOne } alt={ `Système de contrôle d'accès par digicode` } isLeft={ false } title={ `Faites appel à Icon International pour vous garantir un accès sécurisé à votre bâtiment` }>
+                        <p>{ `Que vous ayez un ou plusieurs bâtiments à sécuriser et quel que soit le nombre d'utilisateurs, ` }<strong>{ `Icon International` }</strong>{ ` propose des solutions de contrôle d'accès souples et modulaires, adaptées aux besoins de chaque client : ` }<strong>{ `multi-sites, multi-bâtiments, multi-postes...` }</strong></p>
                         <p><strong>{ `Le contrôle d'accès` }</strong>{ ` consiste à s’assurer qu’un individu a bien les droits nécessaires pour accéder à un lieu, un édifice ou un local. Il permet d’organiser la circulation des personnes à l’intérieur d’un site et de gérer l’accès aux différentes zones de façon sélective. ` }</p>
                         <p>{ `Ainsi, ` }<strong>{ `l’accès à des espaces sensibles peut être restreint` }</strong>{ ` à certains utilisateurs, selon des plages horaires prédéfinies, avec un enregistrement de tous les déplacements dans un historique.` }</p> 
                     </ImagedArticle>
@@ -203,15 +202,12 @@ export default function FirstSection() {
                         <p className={ classes.textParagraph }>{ `Grâce à sa gestion multi-profil et à la flexibilité de l'attribution des accès, la solution iMotion s'adapte à vos besoins et résout tous vos problèmes de gestion des accès. La gestion des profils nécessite la création d'un fichier "titulaire du badge" dans le logiciel. Ce dossier individuel contiendra toutes les informations personnelles relatives au porteur du badge. Le dossier individuel du porteur de badge contient des informations le concernant : nom, période de validité, profil, etc... Dans la base de données, l'administrateur ou l'opérateur associe le titulaire du badge à un identifiant et lui attribue une autorisation d'accès sous la forme d'un profil. Un profil est un groupe de zones géographiques, d'heures, de dates, etc...` }</p>
                     </div>
                 </div>
-                <div className={ classes.sectionTitleHolder }>
-                    <ImageTitle image={ adCamFullLogo } alt={ `AD CAM, Installateur de systèmes de sécurité à Orléans` } width={ "350px" } />
-                </div>
                 <div className={ classes.textContainer }>
                     <p className={ classes.textParagraph }>{ `` }</p>
                 </div>
                 <div className={ classes.contactUsArea }>
                     <h3 className={ classes.contactUsTitle }>
-                        { `Nos solutions en matière de contrôle d'accès vous intéressent ? AD CAM est à votre disposition pour vous conseiller et vous transmettre une estimation des coûts gratuite ! Nous intervenons dans un rayon de 50 kilomètres autour d'Orléans.` }
+                        { `Nos solutions en matière de contrôle d'accès vous intéressent ? Icon International est à votre disposition pour vous conseiller et vous transmettre une estimation des coûts gratuite !` }
                     </h3>
                     <IconButton icon={ "invoice" } text={ `Devis 100% gratuit` } link={ "/contact" } description={ `Contactez-nous pour obtenir un devis 100% gratuit` } isOutside={ false }/>
                 </div>

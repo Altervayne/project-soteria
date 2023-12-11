@@ -8,7 +8,6 @@ import Footer from '../_components/Footer'
 /* Page Components Imports */
 import Banner from '../_components/Banner'
 import FormSection from './_pageComponents/FormSection'
-import MapSection from './_pageComponents/MapSection'
 
 
 
@@ -19,7 +18,6 @@ export default function ContactPage() {
             <main>
                 <Banner image={ contactBannerPhoto } isSmall={ false } position='center' />
                 <FormSection />
-                <MapSection />
             </main>
             <Footer />
         </>

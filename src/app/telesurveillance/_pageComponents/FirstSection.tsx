@@ -1,10 +1,11 @@
 'use client'
 /* Assets Imports */
-import wizSenseBanner from "../../../../public/dahua/banner-wiz_sense.webp"
-import wizOne from "../../../../public/dahua/wizOne.png"
+import telesurveillanceBanner from "/public/telesurveillance/banner-telesurveillance.jpg"
+import telesurveillanceOne from "/public/telesurveillance/telesurveillance-one.jpg"
+import telesurveillanceTwo from "/public/telesurveillance/telesurveillance-two.jpg"
+import telesurveillanceThree from "/public/telesurveillance/telesurveillance-three.jpg"
 /* Library Imports */
 import { makeStyles } from 'tss-react/mui'
-import YouTube from "react-youtube"
 /* Components Imports */
 import { TechSheetBanner, TechSheetText } from '@/app/_components/TechSheet'
 import { IconButton } from "@/app/_components/Button"
@@ -21,6 +22,14 @@ const useStyles = makeStyles()((theme) => {
             boxSizing: "border-box",
 
             width: "100%",
+
+            boxShadow: "0px -50px 25px -50px rgba(0, 0, 0, 0.3)",
+
+
+
+            [theme.breakpoints.down('sm')]: {
+                paddingTop: theme.spacing(16),
+            },
         },
         subRoot: {
             display: "flex",
@@ -117,7 +126,7 @@ const useStyles = makeStyles()((theme) => {
 
 
 
-export default function SecondSection() {
+export default function FirstSection() {
     const { classes } = useStyles()
 
 
@@ -125,16 +134,16 @@ export default function SecondSection() {
     return (      
         <section className={ classes.root }>
             <TechSheetBanner
-                                image={ wizSenseBanner }
-                                alt={ "Technologie de reconnaissance WizSense" }
-                                isTop={ false }
+                                image={ telesurveillanceBanner }
+                                alt={ "Image d'un centre de télésurveillance" }
+                                isTop={ true }
                                 tag={ "" }
-                                boldTitle={ "Une surveillance" }
-                                regularTitle={ " intelligente" }
+                                boldTitle={ "Nous gardons" }
+                                regularTitle={ " le fort pour vous" }
                                 text={ [
                                     {
                                         type: "regular",
-                                        text: "Assurez vous de ne vous concentrer que sur les réelles menaces grâce à un système assisté par intelligence artificielle."
+                                        text: "Icon International propose des services de télésurveillance pour vous garantir la sérénité."
                                     }
                                 ] }
                                 transparent={ false }
@@ -142,20 +151,50 @@ export default function SecondSection() {
             
             <div className={ classes.subRoot }>
                 <TechSheetText 
-                            image={ wizOne }
-                            alt={ "Caméra de Surveillance intelligente WizSense" }
+                            image={ telesurveillanceOne }
+                            alt={ "Caméra de Surveillance" }
                             isLeft={ false }
-                            boldTitle={ "Améliorez" }
-                            regularTitle={ " votre surveillance par l'intelligence artificielle" }
+                            boldTitle={ "Nous surveillons" }
+                            regularTitle={ " vos locaux" }
                             text={ [
                                 {
                                     type: "bold",
-                                    text: "Faites confiance à Icon International pour installer des systèmes de surveillance puissants."
+                                    text: "Faites appel à Icon International pour garder un oeil à tout moment sur vos locaus"
                                 },
                                 {
                                     type: "regular",
-                                    text: "Avec notre entreprise, vous pouvez profiter d’une caméra de surveillance performante. Un emplacement discret et une gamme d’appareils parfaitement adaptés font la notoriété de notre service."
+                                    text: "Les avantages de la télésurveillance sont multiples. Nous installons et utilisons vos systèmes de vidéosurveillance afin de garder un oeil constant sur vos locaux et d'en garantir la sécurité."
                                 },
+                            ] }
+                />
+                <TechSheetText 
+                            image={ telesurveillanceTwo }
+                            alt={ "Système d'alarme" }
+                            isLeft={ true }
+                            boldTitle={ "Nous sommes" }
+                            regularTitle={ " à l'écoute" }
+                            text={ [
+                                {
+                                    type: "regular",
+                                    text: "Nous écoutons à tout instant votre système d'alarme installé par nos soins afin de prévenir toute effraction."
+                                }
+                            ] }
+                />
+                <TechSheetText 
+                            image={ telesurveillanceThree }
+                            alt={ "Casque-microphone pour la communication" }
+                            isLeft={ false }
+                            boldTitle={ "Nous réagissons" }
+                            regularTitle={ " à toutes les situations" }
+                            text={ [
+                                {
+                                    type: "regular",
+                                    text: "En cas d'activité suspecte sur les caméras de surveillance, ou  du déclenchement d'une alarme, nous vous contactons immédiatement."
+                                },
+                                {
+                                    type: "regular",
+                                    text: "Dans le cas ou l'activité ne provient pas de vous ou d'une personne de confiance, nous contactons immediatement les autorités pour vous."
+                                }
                             ] }
                 />
             </div>
@@ -164,10 +203,10 @@ export default function SecondSection() {
                 <div className={ classes.contactUsSubRoot }>
                     <div className={ classes.contactUsText }>
                         <h3 className={ classes.contactUsTitle }>
-                            { `Les systèmes de vidéosurveillance proposés par Icon International vous intéressent ?` }
+                            { `Les services de télésurveillance proposés par Icon International vous intéressent ?` }
                         </h3>
                         <p className={ classes.contactUsSubTitle }>
-                            { `Dans le but d’optimiser votre protection, nos techniciens qualifiés détectent l’emplacement stratégique pour l’installation de l’équipement, pour assurer la qualité des images d’informations et la discrétion de l’appareil, assurent la liaison de la caméra au routeur avant de bien la fixer et protègent le dispositif et ses accessoires contre les intempéries. Icon International est à votre disposition pour vous conseiller et vous transmettre une estimation des coûts gratuite !` }
+                            { `Icon International est à votre disposition pour vous conseiller et vous transmettre une estimation des coûts gratuite !` }
                         </p>
                     </div>
 

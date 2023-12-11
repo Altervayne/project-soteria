@@ -1,6 +1,3 @@
 [
-    { "name": "privavyPolicy", "link": "/politique-de-confidentialite/", "text": "Politique de confidentialité" },
-    { "name": "legalInformation", "link": "/mentions-legales/", "text": "Mentions légales" },
-    { "name": "termsOfUse", "link": "/files/cgv_ad-cam_2023.pdf/", "text": "CGV" },
-    { "name": "termsOfUseAlma", "link": "/cgv-alma/", "text": "CGV ALMA" }
+    { "name": "privavyPolicy", "link": "/politique-de-confidentialite/", "text": "Politique de confidentialité" }
 ]

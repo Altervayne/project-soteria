@@ -47,7 +47,7 @@ export default function MaintenanceBanner() {
     return (      
         <div className={ classes.root }>
             <PiWarningBold className={ classes.icon } />
-            <p className={ classes.text }>{ `Pour des raisons de maintenance, les formulaires de contact ne fonctionnent actuellement pas. Pour toute demande, joignez nous au 06 95 86 91 76.` }</p>
+            <p className={ classes.text }>{ `Pour des raisons de maintenance, les formulaires de contact ne fonctionnent actuellement pas. Pour toute demande, joignez nous au +32 (0)2 703 02 03.` }</p>
         </div>
     )
 }

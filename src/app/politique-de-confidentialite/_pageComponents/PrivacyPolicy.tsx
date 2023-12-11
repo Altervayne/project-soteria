@@ -122,8 +122,8 @@ export default function LegalNotices() {
                     <div className={ classes.textRoot }>
                         
                         <h4 className={ classes.textTitle }>{ `Propriétaire et Responsable du traitement` }</h4>
-                        <p className={ classes.textParagraph }>{ `AD-CAM – 7 impasse du Brault – 45760 Vennecy – France.` }</p>
-                        <p className={ classes.textParagraph }><strong>{ `Couriel de contact du Propriétaire: ` }</strong>{ `contact@ad-cam.fr` }</p>
+                        <p className={ classes.textParagraph }>{ `Icon International – 142, Avenue Jules Bordet, B - 1140 Evere` }</p>
+                        <p className={ classes.textParagraph }><strong>{ `Téléphone de contact du Propriétaire: ` }</strong>{ `+32 (0)2 703 02 03` }</p>
 
 
 

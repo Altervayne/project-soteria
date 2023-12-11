@@ -101,7 +101,7 @@ export default function FirstSection() {
                             text={ [
                                 {
                                     type: "bold",
-                                    text: "Faites appel à AD CAM pour installer des systèmes de surveillance à la pointe de la technologie."
+                                    text: "Faites appel à Icon International pour installer des systèmes de surveillance à la pointe de la technologie."
                                 },
                                 {
                                     type: "regular",
@@ -118,7 +118,7 @@ export default function FirstSection() {
                             text={ [
                                 {
                                     type: "regular",
-                                    text: "Les œuvres des malfaiteurs et les différents accidents perturbent notre paix au quotidien. C’est pourquoi il est nécessaire d’installer un système de vidéo surveillance. AD CAM est spécialisé dans les systèmes de sécurité à Orléans, il vous fait profiter des avantages de la technologie sur la sécurité. Soyez au courant de tout événement, avec une simplicité d’accès."
+                                    text: "Les œuvres des malfaiteurs et les différents accidents perturbent notre paix au quotidien. C’est pourquoi il est nécessaire d’installer un système de vidéo surveillance. Icon International est spécialisé dans les systèmes de sécurité, il vous fait profiter des avantages de la technologie sur la sécurité. Soyez au courant de tout événement, avec une simplicité d’accès."
                                 }
                             ] }
                 />

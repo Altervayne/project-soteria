@@ -173,7 +173,7 @@ const useStyles = makeStyles()((theme) => {
             fontWeight: 500,
         },
         activeTextHeader: {
-            color: "#C80404",
+            color: "rgba(252, 105, 105, 1)",
             fontSize: theme.typography.pxToRem(17),
             fontWeight: 600,
 
