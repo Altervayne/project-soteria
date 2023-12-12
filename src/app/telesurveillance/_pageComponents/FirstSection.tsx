@@ -159,7 +159,7 @@ export default function FirstSection() {
                             text={ [
                                 {
                                     type: "bold",
-                                    text: "Faites appel à Icon International pour garder un oeil à tout moment sur vos locaus"
+                                    text: "Faites appel à Icon International pour garder un oeil à tout moment sur vos locaux"
                                 },
                                 {
                                     type: "regular",
