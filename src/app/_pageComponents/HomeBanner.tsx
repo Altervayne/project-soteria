@@ -76,17 +76,21 @@ const useStyles = makeStyles()((theme) => {
         bannerSubTitle: {
             color: "#F5F5F5",
 
-            fontWeight: 500,
+            fontWeight: 600,
+            marginTop: theme.spacing(6),
+            marginBottom: 0,
             
 
             [theme.breakpoints.down('sm')]: {
-                fontSize: theme.typography.pxToRem(18),
+                fontSize: theme.typography.pxToRem(22),
             },
             [theme.breakpoints.up('sm')]: {
-                fontSize: theme.typography.pxToRem(22),
+                fontSize: theme.typography.pxToRem(28),
             },
         },
         bannerSubText: {
+            color: "#F5F5F5",
+
             marginTop: 0,
 
             fontSize: theme.typography.pxToRem(18),
@@ -167,8 +171,11 @@ export default function HomeBanner() {
                     <h1 className={ classes.bannerTitle }>
                         { `Icon International Security` }
                     </h1>
-                    <h2 className={ classes.bannerSubTitle }>
+                    <p className={ classes.bannerSubText }>
                         { `Agence d'installation de systèmes de sécurité et de télésurveillance` }
+                    </p>
+                    <h2 className={ classes.bannerSubTitle }>
+                        { `Your security. Our job.` }
                     </h2>
                 </div>
 
